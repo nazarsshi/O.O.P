@@ -1,0 +1,24 @@
+
+.table-row-cell .table-cell{
+    -fx-background-color: orange;
+}
+
+.table-view{
+    -fx-background-color: orange;
+}
+
+.button{
+    -fx-background-color: orange;
+    -fx-border-style: dashed;
+    -fx-border-color: #f4424b;
+    -fx-border-width: 3px;
+}
+
+.column-header-background .label{
+    -fx-background-color: orange;
+    -fx-border-style: dashed;
+    -fx-border-width: 5px;
+    -fx-border-color: #f4424b;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
