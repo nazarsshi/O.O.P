@@ -1,12 +1,10 @@
 package com.company;
 
-import static java.lang.Thread.sleep;
-
-public class MyRunnable implements Runnable {
+public class ExitThread extends Thread {
     @Override
     public void run() {
         try {
-            sleep(1000);
+            sleep(10000);
 
         }
         catch (InterruptedException e){

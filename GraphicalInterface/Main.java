@@ -473,6 +473,8 @@ public class Main extends Application {
                     fadeTransition.play();
                     root.getChildren().clear();
                     root.getChildren().add(flowPane1);
+                    ExitThread exitThread = new ExitThread();
+                    exitThread.start();
                 }
                 catch (FileNotFoundException exc){
                     exc.printStackTrace();
