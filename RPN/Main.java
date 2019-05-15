@@ -32,6 +32,7 @@ public class Main {
 
         String[] strings = rpnString.split(" ");
         for (int i = 0; i < strings.length; i++) {
+            if(strings[i].charAt(0) == '.') throw new RPNParserException();
             if (numeralOrNot(strings[i])) {
                 Numcounter++;
                 try {
